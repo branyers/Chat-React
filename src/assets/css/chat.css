@@ -1,0 +1,117 @@
+.Chat__messages-container {
+  height: 85.9vh;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Chat__bar-info {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  background-color: #2979ff;
+  position: relative;
+}
+
+.Chat_connected-ball {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+}
+
+.Chat__user {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.Chat__logout {
+  position: absolute;
+  right: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Chat__users-connected {
+  display: inline-block;
+  width: 20%;
+}
+
+.Chat__message-container {
+  display: inline-block;
+  position: relative;
+  overflow-y: scroll;
+  width: 80%;
+  height: 100%;
+  border-left: 2px solid rgba(128, 128, 128, 0.568);
+  min-height: 200px;  
+  padding: 20px;
+}
+
+.Chat__users-connected {
+  padding: 20px;
+}
+
+.chat-users {
+  padding-bottom: 3px;
+}
+
+.Chat__message-print-right, .Chat__message-print-left {
+  width: 100%;
+  padding: 5px 0;
+}
+
+.Chat__message-print-right > p, .Chat__message-print-left > p {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2979ff;
+}
+
+.Chat__message-print-right  {
+  text-align: right;
+}
+
+.Chat__message-print-left {
+  text-align: left;
+}
+
+.Chat__message-user {
+  padding: 5px;
+  color: rgb(109, 109, 109);
+  border-radius: 15px;
+  font-size: .8rem;
+  bottom: 0;
+}
+
+.Chat__form-messages {
+  width: 100%;
+  border-top: 2px solid rgba(128, 128, 128, 0.568);
+  text-align: right;
+}
+
+.btn-messages {
+  vertical-align: top;
+  width: 10%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #2979ff;
+  color: #fff;cursor: pointer;
+}
+
+.input-messages {
+  width: 90%;
+  height: 100%;
+  padding-left: 10px;
+  border: none;
+}
